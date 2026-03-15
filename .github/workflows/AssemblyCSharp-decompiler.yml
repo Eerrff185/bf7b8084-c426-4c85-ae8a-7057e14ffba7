@@ -1,4 +1,4 @@
-name: Decompile DLL
+name: Decompile AssemblyCSharp.dll
 
 on:
   workflow_dispatch:
