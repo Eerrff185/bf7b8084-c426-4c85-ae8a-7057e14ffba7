@@ -19,7 +19,7 @@ jobs:
       - name: Install ILSpy CLI
         run: dotnet tool install --global ilspycmd
 
-      - name: Decompile Assembly
+      - name: Decompile AssemblyCSharp-firstpass
         run: |
           mkdir output
           ~/.dotnet/tools/ilspycmd Assembly-CSharp-firstpass.dll -p -o output
